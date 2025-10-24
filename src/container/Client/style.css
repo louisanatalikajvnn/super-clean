@@ -1,0 +1,31 @@
+.client-container {
+  background: linear-gradient(201deg, #fefefc 59.23%, var(--cyan) 153.98%);
+  overflow: scroll;
+}
+
+.client-container .cards {
+  display: flex;
+  width: 700px;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+@media screen and (max-width: 750px) {
+  .client-container .cards {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .client-container .cards {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .client-container .cards {
+    width: 200px;
+  }
+}

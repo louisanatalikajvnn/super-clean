@@ -1,0 +1,71 @@
+.before-after-card {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 360px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 0 0;
+}
+
+.before-after-card.before {
+  background: #128080;
+}
+
+.before-after-card.after {
+  background: #37a8a0;
+}
+
+.before-after-card .card-info {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: Source Sans Pro;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.before-after-card .card-info p {
+  margin: 20px;
+}
+
+.before-after-card.before .card-info {
+  background: #37a8a0;
+}
+
+.before-after-card.after .card-info {
+  background: #128080;
+}
+
+@media screen and (max-width: 800px) {
+  .before-after-card {
+    width: 280px;
+    padding: 20px 0 0 0;
+  }
+
+  .before-after-card .card-info {
+    margin-top: 28px;
+    font-size: 1.2rem;
+  }
+
+  .before-after-card .card-info p {
+    margin: 12px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .before-after-card {
+    width: 200px;
+    padding: 16px 0 0 0;
+  }
+
+  .before-after-card .card-info {
+    margin-top: 16px;
+    font-size: 0.8rem;
+  }
+
+  .before-after-card .card-info p {
+    margin: 10px;
+  }
+}

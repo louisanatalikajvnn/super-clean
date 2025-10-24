@@ -1,0 +1,89 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(201deg, #fefefc 59.23%, var(--cyan) 153.98%);
+}
+
+.typing-word {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  height: 100px;
+
+  color: var(--cyan);
+  margin: 0;
+  text-align: center;
+}
+
+.company-info {
+  font-family: "Bitter", serif;
+  font-style: italic;
+
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--dark-grey);
+  text-align: center;
+}
+
+.home-container .logo {
+  width: 20vw;
+  height: auto;
+}
+
+.home-container .copyright {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .home-container .logo {
+    width: 200px;
+  }
+
+  .typing-word {
+    height: 80px;
+    font-size: 60px;
+  }
+
+  .company-info {
+    font-size: 20px;
+    margin: 0 60px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .typing-word {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .company-info {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .typing-word {
+    height: 140px;
+    font-size: 52px;
+  }
+
+  .company-info {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .typing-word {
+    height: 100px;
+    font-size: 40px;
+  }
+
+  .company-info {
+    font-size: 12px;
+  }
+}
