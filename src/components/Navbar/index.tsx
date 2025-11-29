@@ -70,7 +70,7 @@ const Navbar = () => {
             <NavLink to="/clients">OUR CLIENTS</NavLink>
           </li>
           <li onClick={() => setIsExpanded(false)}>
-            <NavLink to="/">BENEFITS</NavLink>
+            <NavLink to="/benefits">BENEFITS</NavLink>
           </li>
           <li onClick={() => setIsExpanded(false)}>
             <NavLink to="/contact">CONTACT US</NavLink>
