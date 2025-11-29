@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4195ae86.css",
-    "main.js": "/static/js/main.b725a936.js",
+    "main.css": "/static/css/main.06b44969.css",
+    "main.js": "/static/js/main.4445a63b.js",
     "static/js/787.5c5403d7.chunk.js": "/static/js/787.5c5403d7.chunk.js",
     "static/media/GSapu.png": "/static/media/GSapu.82aa80fd65f504d22b1a.png",
     "static/media/tbg.png": "/static/media/tbg.0ba3dcc7f5c120e6d328.png",
@@ -10,9 +10,13 @@
     "static/media/AVacuum.png": "/static/media/AVacuum.995910ff6c91e0a9ce1d.png",
     "static/media/noon.png": "/static/media/noon.12fd9e3a972eeb4b0e6f.png",
     "static/media/VKarpet.png": "/static/media/VKarpet.7fdc614749f3548edd6c.png",
+    "static/media/rumah.jpg": "/static/media/rumah.527f3145ad97ed21f5a1.jpg",
+    "static/media/sofa.jpg": "/static/media/sofa.3bfaaf3c3aca0f58a71b.jpg",
     "static/media/BVacuum.png": "/static/media/BVacuum.b977e06ef8776127cf08.png",
     "static/media/Pencucian Karpet.png": "/static/media/Pencucian Karpet.436fa4e41c4004d9eede.png",
+    "static/media/udara.jpg": "/static/media/udara.2862b743a2d04ff1f9d6.jpg",
     "static/media/D1.png": "/static/media/D1.7eabab8793a04eebbd5b.png",
+    "static/media/jamur.jpg": "/static/media/jamur.32fc107bffdf7aed9b45.jpg",
     "static/media/D2.png": "/static/media/D2.d88e684cdc90c6e8f70e.png",
     "static/media/VJok.png": "/static/media/VJok.b7addd26150b7c31fff0.png",
     "static/media/VSofa.png": "/static/media/VSofa.bd418253082ee5d5be0e.png",
@@ -24,6 +28,7 @@
     "static/media/Pencucian Jok.png": "/static/media/Pencucian Jok.5771d92bb45ecf349aea.png",
     "static/media/Pencucian Kasur.png": "/static/media/Pencucian Kasur.c00c711b294b7855151b.png",
     "static/media/lalamove.jpg": "/static/media/lalamove.9c876c12d2c8833cbe36.jpg",
+    "static/media/noda.jpg": "/static/media/noda.6db9079dc3d214252fa6.jpg",
     "static/media/ikkudo.jpg": "/static/media/ikkudo.930275b599861ddad05d.jpg",
     "static/media/mandiri.png": "/static/media/mandiri.7d943e8b8865a4b56584.png",
     "static/media/SCLogo.png": "/static/media/SCLogo.c19ef7cbd5082e2754f1.png",
@@ -41,12 +46,12 @@
     "static/media/icons8-shopee.svg": "/static/media/icons8-shopee.8139b5fe1d1771544fa87bfa8c0d0842.svg",
     "static/media/map-pin.svg": "/static/media/map-pin.a0fbb1dac7e87acbec513b4c1eb8fd3d.svg",
     "static/media/mail.svg": "/static/media/mail.f87d86003e14922f85b110abf29a2632.svg",
-    "main.4195ae86.css.map": "/static/css/main.4195ae86.css.map",
-    "main.b725a936.js.map": "/static/js/main.b725a936.js.map",
+    "main.06b44969.css.map": "/static/css/main.06b44969.css.map",
+    "main.4445a63b.js.map": "/static/js/main.4445a63b.js.map",
     "787.5c5403d7.chunk.js.map": "/static/js/787.5c5403d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4195ae86.css",
-    "static/js/main.b725a936.js"
+    "static/css/main.06b44969.css",
+    "static/js/main.4445a63b.js"
   ]
 }
