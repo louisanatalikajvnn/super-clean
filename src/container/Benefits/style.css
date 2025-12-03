@@ -42,7 +42,7 @@ body {
   height: calc(100vh - 60px);
   overflow-y: auto;
   box-shadow: 4px 0 20px rgba(28, 112, 114, 0.3);
-  z-index: 100;
+  z-index: 2;
   animation: slideInLeft 0.8s ease-out;
   top: 60px;
 }
