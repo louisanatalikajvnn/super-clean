@@ -14,8 +14,8 @@ const Footer = () => {
   const contacts = [
     {
       src: Mail,
-      info: "admin@superclean.co.id",
-      link: "mailto:admin@superclean.co.id",
+      info: "supercleanjakarta@gmail.com",
+      link: "mailto:supercleanjakarta@gmail.com",
     },
     {
       src: Location,
