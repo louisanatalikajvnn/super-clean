@@ -28,13 +28,11 @@ import BA1 from "../../images/before-after/pencucian/ba-1.png";
 import BA2 from "../../images/before-after/pencucian/ba-2.png";
 import BA3 from "../../images/before-after/pencucian/ba-3.png";
 import BA4 from "../../images/before-after/pencucian/ba-4.png";
-import BA5 from "../../images/before-after/vacuum/ba-5.png";
 import BA6 from "../../images/before-after/pencucian/ba-6.png";
 import BA7 from "../../images/before-after/pencucian/ba-7.png";
 import BA8 from "../../images/before-after/vacuum/ba-8.png";
 import BA9 from "../../images/before-after/pencucian/ba-9.png";
 import BA10 from "../../images/before-after/pencucian/ba-10.png";
-import BA11 from "../../images/before-after/vacuum/ba-11.png";
 import BA12 from "../../images/before-after/pencucian/ba-12.png";
 import BA13 from "../../images/before-after/pencucian/ba-13.png";
 import BA14 from "../../images/before-after/vacuum/ba-14.png";
@@ -54,13 +52,13 @@ import BA27 from "../../images/before-after/pencucian/ba-27.png";
 import BA28 from "../../images/before-after/pencucian/ba-28.png";
 import BA29 from "../../images/before-after/pencucian/ba-29.png";
 
-import "./style.css";
 import Carousel from "../../components/Carousel";
 import ProductCard, { ProductCardProps } from "../../components/ProductCard";
 import BeforeAfterCard from "../../components/BeforeAfterCard";
 import Ornament from "../../components/Ornament";
 import ServiceCard, { ServiceCardProps } from "../../components/ServiceCard";
 import Footer from "../../components/Footer";
+import "./style.css";
 
 const Service = () => {
   const serviceList: ServiceCardProps[] = [
@@ -147,24 +145,39 @@ const Service = () => {
     },
   ];
 
-  const beforeAfterPencucian: any[] = [
+  const beforeAfterPencucianKasur: any[] = [
+    {
+      imgSrc: BA12,
+    },
+    {
+      imgSrc: BA18,
+    },
     {
       imgSrc: BA3,
     },
     {
+      imgSrc: BA23,
+    },
+    {
+      imgSrc: BA26,
+    },
+  ];
+
+  const beforeAfterPencucianKasur2: any[] = [
+    {
+      imgSrc: BA29,
+    },
+    {
+      imgSrc: BA2,
+    },
+  ];
+
+  const beforeAfterPencucianSofa: any[] = [
+    {
       imgSrc: BA4,
     },
     {
-      imgSrc: BA7,
-    },
-    {
       imgSrc: BA9,
-    },
-    {
-      imgSrc: BA10,
-    },
-    {
-      imgSrc: BA12,
     },
     {
       imgSrc: BA13,
@@ -176,38 +189,17 @@ const Service = () => {
       imgSrc: BA17,
     },
     {
-      imgSrc: BA18,
-    },
-    {
       imgSrc: BA19,
-    },
-    {
-      imgSrc: BA20,
-    },
-    {
-      imgSrc: BA23,
     },
     {
       imgSrc: BA24,
     },
     {
-      imgSrc: BA26,
-    },
-    {
       imgSrc: BA27,
-    },
-    {
-      imgSrc: BA28,
     },
   ];
 
-  const beforeAfterPencucianPart2: any[] = [
-    {
-      imgSrc: BA29,
-    },
-    {
-      imgSrc: BA2,
-    },
+  const beforeAfterPencucianSofa2: any[] = [
     {
       imgSrc: BA6,
     },
@@ -217,20 +209,37 @@ const Service = () => {
     {
       imgSrc: BA22,
     },
+  ];
+
+  const beforeAfterPencucianKarpet: any[] = [
+    {
+      imgSrc: BA10,
+    },
     {
       imgSrc: BA1,
     },
   ];
 
+  const beforeAfterPencucianJok: any[] = [
+    {
+      imgSrc: BA20,
+    },
+    {
+      imgSrc: BA28,
+    },
+  ];
+
+  const beforeAfterPencucianMejaBilliard: any[] = [
+    {
+      imgSrc: BA7,
+    },
+  ];
+
+  const beforeAfterPencucianPart2: any[] = [];
+
   const beforeAfterVacuum: any[] = [
     {
-      imgSrc: BA5,
-    },
-    {
       imgSrc: BA8,
-    },
-    {
-      imgSrc: BA11,
     },
     {
       imgSrc: BA14,
@@ -274,8 +283,77 @@ const Service = () => {
               imgClass="pkasur-ba-img"
             />
           </div>
+          <h3 className="ba-title">Before After Pencucian Kasur</h3>
           <div className="ba-gallery">
-            {beforeAfterPencucian.map((item, index) => (
+            {beforeAfterPencucianKasur.map((item, index) => (
+              <img
+                key={index}
+                src={item.imgSrc}
+                alt="before-after"
+                className="ba-gallery-img"
+              />
+            ))}
+          </div>
+          <div className="ba-gallery">
+            {beforeAfterPencucianKasur2.map((item, index) => (
+              <img
+                key={index}
+                src={item.imgSrc}
+                alt="before-after"
+                className="ba-gallery-img"
+              />
+            ))}
+          </div>
+
+          <h3 className="ba-title">Before After Pencucian Sofa</h3>
+          <div className="ba-gallery">
+            {beforeAfterPencucianSofa.map((item, index) => (
+              <img
+                key={index}
+                src={item.imgSrc}
+                alt="before-after"
+                className="ba-gallery-img"
+              />
+            ))}
+          </div>
+          <div className="ba-gallery">
+            {beforeAfterPencucianSofa2.map((item, index) => (
+              <img
+                key={index}
+                src={item.imgSrc}
+                alt="before-after"
+                className="ba-gallery-img"
+              />
+            ))}
+          </div>
+
+          <h3 className="ba-title">Before After Pencucian Karpet</h3>
+          <div className="ba-gallery">
+            {beforeAfterPencucianKarpet.map((item, index) => (
+              <img
+                key={index}
+                src={item.imgSrc}
+                alt="before-after"
+                className="ba-gallery-img"
+              />
+            ))}
+          </div>
+
+          <h3 className="ba-title">Before After Pencucian Meja Billiard</h3>
+          <div className="ba-meja-billiard">
+            {beforeAfterPencucianMejaBilliard.map((item, index) => (
+              <img
+                key={index}
+                src={item.imgSrc}
+                alt="before-after"
+                className="ba-gallery-img"
+              />
+            ))}
+          </div>
+
+          <h3 className="ba-title">Before After Pencucian Jok Mobil</h3>
+          <div className="ba-gallery">
+            {beforeAfterPencucianJok.map((item, index) => (
               <img
                 key={index}
                 src={item.imgSrc}

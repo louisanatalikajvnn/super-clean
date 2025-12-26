@@ -44,6 +44,10 @@
   width: 22px;
 }
 
+.contact-item.contact-footer .contact-logo.whatsapp img {
+  width: 100%;
+}
+
 .contact-info {
   color: #fffffd;
   font-family: Source Sans Pro;

@@ -1,6 +1,6 @@
 import Mail from "../../images/mail.svg";
 import Location from "../../images/map-pin.svg";
-import Whatsapp from "../../images/icons8-whatsapp-48.svg";
+import Whatsapp from "../../images/whatsapp.png";
 import ContactItem from "../../components/ContactItem";
 import Instagram from "../../images/instagram.png";
 import Tiktok from "../../images/tik-tok.png";
@@ -26,16 +26,19 @@ const Footer = () => {
       src: Whatsapp,
       info: "WA CS 1: 0811 87 78737",
       link: "https://wa.me/628118778737",
+      isWhatsapp: true,
     },
     {
       src: Whatsapp,
       info: "WA CS 2: 08111 60 2737",
       link: "https://wa.me/628111602737",
+      isWhatsapp: true,
     },
     {
       src: Whatsapp,
       info: "WA CS 3: 08111 6 78737",
       link: "https://wa.me/628111678737",
+      isWhatsapp: true,
     },
   ];
 
@@ -44,8 +47,14 @@ const Footer = () => {
       <h1>Contact Us</h1>
       <h3>Superclean_id</h3>
       <h2>CV SUPERCLEAN INDO</h2>
-      {contacts.map(({ src, info, link }) => (
-        <ContactItem imgSrc={src} info={info} link={link} isFooter />
+      {contacts.map(({ src, info, link, isWhatsapp }) => (
+        <ContactItem
+          imgSrc={src}
+          info={info}
+          link={link}
+          isFooter
+          isWhatsapp={isWhatsapp}
+        />
       ))}
       <div className="socmed">
         <div className="socmed-logo">
