@@ -74,11 +74,14 @@
   box-shadow: 0 8px 24px rgba(0, 153, 148, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
+  max-width: 80vw;
+  margin: auto;
 }
 
 .ba-meja-billiard {
   width: 28rem;
   margin: 2rem auto 0;
+  max-width: 80vw;
 
 }
 

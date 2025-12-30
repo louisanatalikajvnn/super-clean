@@ -569,7 +569,7 @@ body {
     font-size: 1.6rem;
   }
 
-  .footer {
+  .benefits-footer {
     width: calc(100vw - 250px);
     margin-left: 250px;
   }
@@ -683,5 +683,10 @@ body {
 
   .benefit-content ul {
     padding-left: 20px;
+  }
+
+  .benefits-footer {
+    width: unset;
+    margin-left: unset;
   }
 }
