@@ -10,7 +10,7 @@ import Tokped from "../../images/tokped.png";
 
 import "./style.css";
 
-const Footer = () => {
+const Footer = ({ containerClassName }: { containerClassName?: any }) => {
   const contacts = [
     {
       src: Mail,
@@ -43,7 +43,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="footer">
+    <div className={`footer ${containerClassName}`}>
       <h1>Contact Us</h1>
       <h3>Superclean_id</h3>
       <h2>CV SUPERCLEAN INDO</h2>

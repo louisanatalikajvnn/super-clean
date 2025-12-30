@@ -461,6 +461,11 @@ body {
   text-shadow: 0 0 10px rgba(255, 255, 253, 0.5);
 }
 
+.benefits-footer {
+  width: calc(100vw - 280px);
+  margin-left: 280px;
+}
+
 /* Animations */
 @keyframes slideInLeft {
   from {
@@ -563,6 +568,11 @@ body {
   .section-title {
     font-size: 1.6rem;
   }
+
+  .footer {
+    width: calc(100vw - 250px);
+    margin-left: 250px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -643,6 +653,11 @@ body {
 
   .benefit-image {
     border-radius: 10px;
+  }
+
+  .benefits-footer {
+    width: unset;
+    margin-left: unset;
   }
 }
 

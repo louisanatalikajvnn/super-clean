@@ -4,6 +4,7 @@ import NodaImage from "../../images/benefits/sofa/noda.jpg";
 import UdaraImage from "../../images/benefits/deep/udara.jpg";
 import JamurImage from "../../images/benefits/deep/jamur.jpg";
 import RumahImage from "../../images/benefits/deep/rumah.jpg";
+import Footer from "../../components/Footer";
 import "./style.css";
 
 const SuperCleanPage = () => {
@@ -347,6 +348,7 @@ const SuperCleanPage = () => {
           <div className="cta-box">{content.cta}</div>
         </div>
       </main>
+      <Footer containerClassName="benefits-footer" />
     </div>
   );
 };

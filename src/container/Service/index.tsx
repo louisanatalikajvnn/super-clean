@@ -153,9 +153,6 @@ const Service = () => {
       imgSrc: BA18,
     },
     {
-      imgSrc: BA3,
-    },
-    {
       imgSrc: BA23,
     },
     {
@@ -173,6 +170,9 @@ const Service = () => {
   ];
 
   const beforeAfterPencucianSofa: any[] = [
+    {
+      imgSrc: BA3,
+    },
     {
       imgSrc: BA4,
     },
