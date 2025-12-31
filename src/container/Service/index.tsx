@@ -158,9 +158,6 @@ const Service = () => {
     {
       imgSrc: BA26,
     },
-  ];
-
-  const beforeAfterPencucianKasur2: any[] = [
     {
       imgSrc: BA29,
     },
@@ -213,9 +210,6 @@ const Service = () => {
 
   const beforeAfterPencucianKarpet: any[] = [
     {
-      imgSrc: BA10,
-    },
-    {
       imgSrc: BA1,
     },
   ];
@@ -223,9 +217,6 @@ const Service = () => {
   const beforeAfterPencucianJok: any[] = [
     {
       imgSrc: BA20,
-    },
-    {
-      imgSrc: BA28,
     },
   ];
 
@@ -246,9 +237,6 @@ const Service = () => {
     },
     {
       imgSrc: BA21,
-    },
-    {
-      imgSrc: BA25,
     },
   ];
 
@@ -294,16 +282,6 @@ const Service = () => {
               />
             ))}
           </div>
-          <div className="ba-gallery">
-            {beforeAfterPencucianKasur2.map((item, index) => (
-              <img
-                key={index}
-                src={item.imgSrc}
-                alt="before-after"
-                className="ba-gallery-img"
-              />
-            ))}
-          </div>
 
           <h3 className="ba-title">Before After Pencucian Sofa</h3>
           <div className="ba-gallery">
@@ -328,7 +306,7 @@ const Service = () => {
           </div>
 
           <h3 className="ba-title">Before After Pencucian Karpet</h3>
-          <div className="ba-gallery">
+          <div className="ba-one-item">
             {beforeAfterPencucianKarpet.map((item, index) => (
               <img
                 key={index}
@@ -340,7 +318,7 @@ const Service = () => {
           </div>
 
           <h3 className="ba-title">Before After Pencucian Meja Billiard</h3>
-          <div className="ba-meja-billiard">
+          <div className="ba-one-item">
             {beforeAfterPencucianMejaBilliard.map((item, index) => (
               <img
                 key={index}
@@ -352,7 +330,7 @@ const Service = () => {
           </div>
 
           <h3 className="ba-title">Before After Pencucian Jok Mobil</h3>
-          <div className="ba-gallery">
+          <div className="ba-one-item">
             {beforeAfterPencucianJok.map((item, index) => (
               <img
                 key={index}
